@@ -1,4 +1,6 @@
 # Distortion-Effect-Reactjs-GSAP-hoverEffect.js
+[Live Version](https://confidence-gsap.vercel.app/) <br/>
+Design by [Vladimir Biondic](https://dribbble.com/shots/15081333-Confidence)
 
 ## Available Scripts
 
