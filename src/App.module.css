@@ -1,6 +1,6 @@
 @property --bg-color {
   syntax: "<color>";
-  initial-value: rgba(241, 156, 157, 1);
+  initial-value: rgba(241, 156, 157);
   inherits: false;
 }
 
@@ -8,9 +8,10 @@
   height: 100vh;
   width: 100%;
   position: relative;
-  background: linear-gradient(180deg, rgba(218, 214, 213, 1) 10%, var(--bg-color) 100%);
+  background: linear-gradient(180deg, rgba(218, 214, 213) 10%, var(--bg-color) 100%);
   transition: --bg-color 0.3s cubic-bezier(0.11, 0, 0.5, 0);
   overflow: hidden;
+  --bg-color: rgba(241, 156, 157);
 }
 .home.grey {
   --bg-color: rgb(154, 178, 188);
