@@ -1,0 +1,29 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  min-width: 100%;
+  background: rgba(241, 156, 157, 1);
+  z-index: 99;
+  overflow: hidden;
+}
+.line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 2px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.449);
+}
+
+.line span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  transform: translate(0, -50%);
+  background-color: rgb(255, 255, 255);
+}
